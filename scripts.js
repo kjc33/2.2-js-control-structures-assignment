@@ -11,3 +11,9 @@ if (q1test % 3 === 0 && q1test % 5 === 0) {
 //Q2. Using an if-else statement, determin if a year is a leap year or not.
 
 //Q3. Use a loop to print all the numbers from 1 to 100 that are divisible by 3 or 4.
+
+for (i = 1; i <= 100; i++) {
+  if (i % 3 === 0 || i % 4 === 0) {
+    console.log(i);
+  }
+}
